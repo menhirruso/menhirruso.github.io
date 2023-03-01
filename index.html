@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="descripcion" content="Curriculum Vitae de una persona al azar"><meta name="author" content="Ricardo Pieresko">
+	<title>Curriculum Vitae</title>
+	<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rubik:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+    </style>
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script type="text/javascript" src='js/principal.js'></script>
+</head>
+<body class="colorbody" onload="obtenerdatos()">
+    <header>
+        <h1>Curriculum Vitae</h1>
+        <nav>
+            <input onclick="inicio()" type="button" value="Inicio" class="boton" />
+            <input onclick="datos()" type="button" value="Datos" class="boton"/>
+            <input onclick="experiencia()" type="button" value="Experiencia" class="boton"/>
+            <input onclick="habilidades()" type="button" value="Habilidades" class="boton"/>
+        </nav>
+    </header>
+    <main>
+        <div id="contenido">
+            <div id="grilla" class="grilla">
+            </div>
+        </div>
+    </main>
+    <footer>@2023 Diseño del Curriculum creado por Ricardo Sergio Pieresko</footer>
+</body>
+</html>
